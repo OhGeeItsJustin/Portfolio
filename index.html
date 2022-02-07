@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><!-- Required meta tags --><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><!-- Bootstrap CSS -->
+	<link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" rel="stylesheet" />
+	<link href="portfolio.css" rel="stylesheet" type="text/css" />
+	<link href="logo.png" rel="shortcut icon" type="image/png" />
+	<title>Justin Fallis Portfolio</title>
+	<style type="text/css">
+	</style>
+	<style type="text/css">
+	</style>
+	<style type="text/css">
+	</style>
+	<style type="text/css">
+	</style>
+	<style type="text/css">
+	</style>
+	<style type="text/css">
+	</style>
+	<style type="text/css">
+	</style>
+	<style type="text/css">
+	</style>
+	<style type="text/css">
+	</style>
+	<style type="text/css">
+	</style>
+	<style type="text/css">
+	</style>
+	<style type="text/css">
+	</style>
+</head>
+<body>
+<div class="container">
+<nav class="navbar navbar-expand-lg navbar-light bg-light"><span class="navbar-brand">Justin Fallis </span><!-- Toggler/collapsibe Button --><button class="navbar-toggler" data-target="#collapsibleNavbar" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button><!-- Navbar links -->
+<div class="collapse navbar-collapse" id="collapsibleNavbar">
+<ul class="navbar-nav ml-auto">
+	<li class="nav-item" data-target=".navbar-collapse.show" data-toggle="collapse"><a class="nav-link" href="#Projects">Projects</a></li>
+	<li class="nav-item" data-target=".navbar-collapse.show" data-toggle="collapse"><a class="nav-link" download="" href="Justin Fallis Resume.pdf">Resume</a></li>
+	<li class="nav-item" data-target=".navbar-collapse.show" data-toggle="collapse"><a class="nav-link" href="mailto:fallij1@mcmaster.ca">Fallij@mcmaster.ca</a></li>
+</ul>
+</div>
+</nav>
+
+<div class="card text-center bg-light mt-4">
+<div class="row no-gutters">
+<div class="col-md-5"></div>
+
+<div class="col-md-12 align-self-center">
+<div class="card-body">
+<h1 class="card-title">Software Developer</h1>
+
+<p class="card-text" id="AboutMe">Hey, I&#39;m Justin. I&#39;m a McMaster University Bachelor of Technology, Software Engineering Technology student. Honors graduate from the Software Development program at Mohawk College. 
+									Currently located in Hamilton Ontario but willing to relocate if needed. Just trying to improve my craft one project at a time. If you want to know more about my skills consider downloading 
+									my <a download="" href="Justin Fallis Resume.pdf">resume</a> or contact me by <a href="mailto:fallij1@mcmaster.ca">email</a>.</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="mt-5">
+<div>
+<h1 class="text-center" id="Projects">Projects</h1>
+</div>
+
+<div class="row row-cols-1 row-cols-md-2 mt-3">
+<div class="col mb-5">
+<div class="card"><img alt="Gif of the Public Art Hamilton Website." class="card-img-top" src="giphy.gif" />
+<div class="card-body">
+<h2 class="card-title">Public Art Hamilton</h2>
+<a class="btn btn-dark" href="http://publicarthamilton.com/" role="button">Visit Website</a> <a class="btn btn-dark" href="https://www.youtube.com/watch?v=z4xNC6blZJE" role="button">Application Video</a> <a class="btn btn-dark" href="https://github.com/OhGeeItsJustin/PublicArtHamilton" role="button">View Source Code</a><br />
+&nbsp;
+<p class="card-text" id="PublicArtHamiltonDescription"><b>Description</b><br />
+Public Art Hamilton is a website that uses open data from Open Hamilton about public art locations around the city of Hamilton. The website displays those locations and the users GPS location on a Google map as markers. When the user selects a marker more information about the selected location will appear such as the name, description, address, and city in the markers label.<br />
+<br />
+<b>Project Difficulties</b><br />
+This project was my first time working with Bootstrap to try and make a responsive web design for my website so it would look good on desktop and mobile devices.<br />
+<br />
+<b>My Solution</b><br />
+I spent two weeks going through the documentation for Bootstrap learning from the examples. After I felt more comfortable with the examples I would copy them to a HTML file and start tweaking the examples. From tweaking the documentation examples I discovered styling options that I could apply to the Public Art Hamilton website.<br />
+<br />
+<b>Technologies Used</b></p>
+
+<ul>
+	<li>HTML5/CSS3</li>
+	<li>PHP</li>
+	<li>Bootstrap</li>
+	<li>gmaps.js</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="col mb-5">
+<div class="card"><img alt="Gif of the More Mohawk Application." class="card-img-top" src="MoreMohawk.gif" />
+<div class="card-body">
+<h2 class="card-title">More Mohawk</h2>
+<a class="btn btn-dark" href="https://www.youtube.com/watch?v=k9P9nrVdp-o" role="button">Application Video</a> <a class="btn btn-dark" href="https://github.com/OhGeeItsJustin/MoreMohawk" role="button">View Source Code</a><br />
+&nbsp;
+<p class="card-text" id="MoreMohawkDescription"><b>Description</b><br />
+More Mohawk was my final capstone project that was an Android application that was targeted towards to first year students Mohawk College students. The application only included information first year Mohawk students would care about such as important campus locations and information about clubs on campus.<br />
+<br />
+<b>Project Difficulties</b><br />
+More Mohawk had user accounts and clubs involved with the application. The application needed the ability to store data.<br />
+<br />
+<b>My Solution</b><br />
+I spent time researching ways to store for my Android application. At first I was going to use a SQLite database but released this would take a large amount of time to create an application that would store the data locally on the phone then upload the data after the application was closed because all of the club information was allowed to be accessed by all student accounts. Instead I integrated Cloud Firestore to retrieve and send all the data that was being used in my application.<br />
+<br />
+<b>Technologies Used</b></p>
+
+<ul>
+	<li>Java</li>
+	<li>Cloud Firestore</li>
+	<li>Maps SDK for Android</li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+            <div class="col mb-5">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-5">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </div>--></div>
+<!-- jQuery first, then Popper.js, then Bootstrap JS --><script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script></div>
+</div>
+</body>
+</html>

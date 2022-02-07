@@ -1,0 +1,26 @@
+.navbar {
+    background-color: transparent !important;
+}
+nav.navbar {
+    width: inherit;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.navbar-brand {
+    font-size: 1.5em;
+}
+.nav-item {
+    font-size: 1.3em;  
+}
+#AboutMe {
+    font-size: 1.2em;
+}
+html {
+  scroll-behavior: smooth;
+}
+#PublicArtHamiltonDescription {
+    margin-bottom: 0px;
+}
+#MoreMohawkDescription {
+    margin-bottom: 0px;
+}
